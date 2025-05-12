@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['capoo']
+
+roboflow:
+  workspace: davidteng
+  project: capoo-game-automation
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/davidteng/capoo-game-automation/dataset/3
